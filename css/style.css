@@ -1,0 +1,197 @@
+/*------------------------------------*\
+    RESET
+\*------------------------------------*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+    v2.0b1 | 201101 
+    NOTE:WORK IN PROGRESS
+    USE WITH CAUTION AND TEST WITH ABANDON */
+
+html,body,div,span,applet,object,iframe,
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+a,abbr,acronym,address,big,cite,code,
+del,dfn,em,img,ins,kbd,q,s,samp,
+small,strike,strong,sub,sup,tt,var,
+b,u,i,center,
+dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,td,
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary,
+time,mark,audio,video{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    font:inherit;
+    vertical-align:baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section{
+    display:block;
+}
+body{
+    line-height:1;
+}
+ol,ul{
+    list-style:none;
+}
+blockquote,q{
+    quotes:none;
+}
+blockquote:before,blockquote:after,
+q:before,q:after{
+    content:’’;
+    content:none;
+}
+/* remember to define visible focus styles! 
+:focus{
+    outline:?????;
+} */
+
+/* remember to highlight inserts somehow! */
+ins{
+    text-decoration:none;
+}
+del{
+    text-decoration:line-through;
+}
+
+table{
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+
+
+
+
+/*------------------------------------*\
+    $MAIN
+\*------------------------------------*/
+
+#home {
+    font-family: 'Vollkorn', serif;
+
+}
+
+* {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+#hero {
+    width:100%;
+    background-color: #112;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-height:100vh;
+}
+
+#hero p, #hero h1, #hero h3 {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#hero h1 {
+    text-align: center;
+    font-size:75px;
+    font-weight: 700;
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#hero h3 {
+    text-align: center;
+    font-size:35px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+#hero h4 {
+    text-align: center;
+    font-size:25px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+p {
+    max-width: 25em;
+    text-align: left;
+    font-size:20px;
+    line-height: 150%;
+}
+
+#steps {
+    width:100%;
+    margin:50px auto 30px;
+    text-align:center;
+}
+
+.step {
+    width: 250px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+    margin-right:20px;
+}
+
+.step p {
+    font-size: 16px;
+}
+
+@media screen and (min-width: 800px) {
+    #hero h1 {
+        font-size:130px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+
+    #hero h3 {
+        font-size:68px;
+    }   
+}
+
+
+#mc_embed_signup {
+    width: 95%;
+    max-width: 400px;
+    margin: 80px auto;
+}
+
+.indicates-required {
+    text-align: right;
+    font-size: small;
+}
+
+#mc_embed_signup label {
+    display: inline-block;
+    width: 200px;
+    font-size: 25px;
+}
+
+.mc-field-group {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mc-field-group input {
+    padding: 10px;
+    width: 100%;
+}
+
+#mc-embedded-subscribe {
+    width: 70%;
+    height: 70px;
+    border: 0;
+    border-radius: 10px;
+    display: block;
+    margin: 40px auto;
+    font-size: 30px;
+    font-family: 'Vollkorn', serif;
+    background-color: white;
+}
+
