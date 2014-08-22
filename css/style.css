@@ -71,6 +71,10 @@ table{
     $MAIN
 \*------------------------------------*/
 
+body {
+    background: url('../images/background.png') repeat;
+}
+
 #home {
     font-family: 'Vollkorn', serif;
 
