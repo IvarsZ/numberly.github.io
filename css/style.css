@@ -98,8 +98,14 @@ body {
     min-height:100vh;
     display:table;
     text-align:center;
+    background-image:url(../images/hero.jpg);
+    background-size:cover;
+    margin-bottom: 60px;
+    background-position: 60% 40%;
 }
-
+#hero h1, #hero h2, #hero h3 {
+    color:white;
+}
 #hero:before {
     content: '';
     display: inline-block;
