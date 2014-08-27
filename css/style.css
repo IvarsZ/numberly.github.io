@@ -80,6 +80,10 @@ body {
 
 }
 
+#home p {
+    font-family: sans-serif;
+}
+
 * {
     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
@@ -140,6 +144,7 @@ h3 {
     font-style: italic;
     width: 90%;
     margin-left:auto;
+    margin-right:auto;
 }
 h4 {
     text-align: center;
@@ -160,6 +165,7 @@ h5{
 }
 
 p {
+    width: 90%;
     max-width: 25em;
     text-align: left;
     font-size:20px;
@@ -167,7 +173,7 @@ p {
     margin-bottom: 2em;
 }
 
-#steps {
+.steps {
     width:100%;
     margin:50px auto 30px;
     text-align:center;
@@ -290,4 +296,55 @@ p {
 
 #mc-embedded-subscribe {
 }
+
+.picture {
+    display:block;
+    width:200px;
+    height:200px;
+    margin: 0px auto;
+    float:none;
+}
+
+.words {
+    width:100%;
+    float:none;
+    padding-top:20px;
+}
+.words h4 {
+    text-align:left;
+}
+.details {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+.details p {
+    width: 100%;
+    margin-right:0px;
+}
+.detail:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+@media screen and (min-width: 600px) {
+    .picture {
+        display:block;
+        width:200px;
+        height:200px;
+        float:left;
+    }
+
+    .words {
+        width:400px;
+        width: calc(100% - 220px);
+        float:right;
+    }
+}
+
+
 
