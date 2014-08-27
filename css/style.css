@@ -113,8 +113,7 @@ body {
     padding-bottom: 70px;
 }
 
-p, h1, h3 {
-    width: 90%;
+p, h1, h2 {
     margin: 0 auto;
 }
 
@@ -127,11 +126,20 @@ h1 {
     margin-bottom: 20px;
 }
 
-h3 {
+h2 {
     text-align: center;
     font-size:35px;
     margin-bottom: 20px;
     font-style: italic;
+}
+h3 {
+    text-align: center;
+    font-size:45px;
+    margin-bottom: 10px;
+    margin-top:10px;
+    font-style: italic;
+    width: 90%;
+    margin-left:auto;
 }
 h4 {
     text-align: center;
@@ -139,6 +147,9 @@ h4 {
     margin-bottom: 10px;
     margin-top:10px;
     font-style: italic;
+    width: 90%;
+    margin-left:auto;
+    margin-right:auto;
 }
 h5{
     text-align: center;
@@ -153,6 +164,7 @@ p {
     text-align: left;
     font-size:20px;
     line-height: 150%;
+    margin-bottom: 2em;
 }
 
 #steps {
@@ -167,8 +179,7 @@ p {
     width: 250px;
     display: inline-block;
     vertical-align: top;
-    margin-left: 20px;
-    margin-right:20px;
+    margin: 20px;
 }
 
 .step p {
@@ -182,16 +193,78 @@ p {
         margin-bottom: 5px;
     }
 
-    #hero h3 {
+    #hero h2 {
         font-size:68px;
     }   
 }
 
 
+
+
 #mc_embed_signup {
-    width: 95%;
-    max-width: 400px;
-    margin: 20px auto 80px;
+    width: 85%;
+    height: 120px;
+    max-width: 700px;
+    margin: 60px auto 60px;
+}
+
+#mc_embed_signup input[type=email] {
+    font-size: 25px;
+    width: 100%;
+    display: block;
+    height: 60px;
+    border: 1px solid #22F;
+    vertical-align: top;
+    float: left;
+    text-align: center;
+}
+
+
+
+#mc_embed_signup input[type=submit] {
+    width: 100%;
+    height: 60px;
+    border: 0;
+    display: block;
+    font-family: sans-serif;
+    background-color: #22F;
+    color: white;
+    font-size: 25px;
+    vertical-align: top;
+    float: right;
+}
+
+@media screen and (min-width: 600px) {
+    #mc_embed_signup {
+        width: 85%;
+        height: 60px;
+        max-width: 700px;
+        margin: 60px auto 60px;
+    }
+
+    #mc_embed_signup input[type=email] {
+        font-size: 25px;
+        width: 70%;
+        display: block;
+        height: 60px;
+        border: 1px solid #22F;
+        vertical-align: top;
+        float: left;
+        text-align: left;
+    }
+
+    #mc_embed_signup input[type=submit] {
+        width: 30%;
+        height: 60px;
+        border: 0;
+        display: block;
+        font-family: sans-serif;
+        background-color: #22F;
+        color: white;
+        font-size: 25px;
+        vertical-align: top;
+        float: right;
+    }
 }
 
 .indicates-required {
@@ -216,15 +289,5 @@ p {
 }
 
 #mc-embedded-subscribe {
-    width: 70%;
-    height: 70px;
-    border: 0;
-    border-radius: 10px;
-    display: block;
-    margin: 40px auto;
-    font-size: 30px;
-    font-family: 'Vollkorn', serif;
-    background-color: #22F;
-    color:white;
 }
 
