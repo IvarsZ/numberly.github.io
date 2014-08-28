@@ -390,8 +390,6 @@ p {
 
 .fullimage {
     width:100%;
-}
-.fullimage img {
-    width:100%;
+    margin-bottom:100px;
 }
 
