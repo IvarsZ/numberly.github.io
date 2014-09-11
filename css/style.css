@@ -380,3 +380,19 @@ p {
     margin-bottom: 120px;
 }
 
+#profiles {
+    text-align: center;
+}
+#profiles img {
+    margin: 20px;
+    border-radius:999px;
+}
+
+.fullimage {
+    width:100%;
+    margin-bottom:100px;
+}
+.fullimage img {
+    width: 100%;
+}
+
